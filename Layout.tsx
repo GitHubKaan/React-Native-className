@@ -6,7 +6,7 @@ import { StyleSheet } from "react-native";
  */
 export function getClasses(classValue?: string) {
     if (classValue === undefined) {
-        return null;
+        return undefined;
     }
 
     const parts: string[] = classValue.split(/\s+/); //check if multiple spaces -- and reduce them to max one between words
@@ -145,11 +145,11 @@ export function getClasses(classValue?: string) {
 
             case "round":           outputValuesArray.push({borderRadius: "50%"}); break;
 
-            case "test":            outputValuesArray.push({outline: "2px dashed red"}); break;
-            case "test-2":          outputValuesArray.push({outline: "2px dashed blue"}); break;
-            case "test-3":          outputValuesArray.push({outline: "2px dashed purple"}); break;
-            case "test-4":          outputValuesArray.push({outline: "2px dashed green"}); break;
-            case "test-5":          outputValuesArray.push({outline: "2px dashed yellow"}); break;
+            case "test":            outputValuesArray.push({borderStyle: "dashed", borderWidth: 1, borderColor: "red"}); break;
+            case "test-2":          outputValuesArray.push({borderStyle: "dashed", borderWidth: 1, borderColor: "blue"}); break;
+            case "test-3":          outputValuesArray.push({borderStyle: "dashed", borderWidth: 1, borderColor: "purple"}); break;
+            case "test-4":          outputValuesArray.push({borderStyle: "dashed", borderWidth: 1, borderColor: "green"}); break;
+            case "test-5":          outputValuesArray.push({borderStyle: "dashed", borderWidth: 1, borderColor: "yellow"}); break;
 
             default: console.log(inputValuesArray[i], 'can not be used as a param, inside the "className" prop'); break;
         }
