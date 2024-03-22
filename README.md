@@ -1,6 +1,6 @@
 ![banner](https://github.com/GitHubKaan/className-Styling-React-Native/blob/master/readme_banner.png)
 
-# Styling in React Native with Tailwind like in React
+# Styling in React Nativelike in React with Tailwind
 
 This repository serves as an alternative to Nativewind or other className-based libraries. It can be implemented and customized swiftly. In projects like Expo, it allows for quick styling within custom components using the className prop. I have integrated the fundamental Tailwind props into the switch-case, which can be modified as needed!
 
