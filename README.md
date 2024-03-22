@@ -9,6 +9,14 @@ This repository serves as an alternative to Nativewind or other className-based 
 2. Create components following the style of "ExampleComponent.tsx".
 3. That's it!
 
+## Example
+```typescript
+<ExampleComponent className="p-3 m-1 gap">
+  <Text>Hello World!</Text>
+  <Text>My Name is Kaan.</Text>
+</ExampleComponent>
+```
+
 ## Info
 - You can add more props to "Layout.tsx".
 - You can change padding, margin, gap sizes, etc. inside "Layout.tsx".
