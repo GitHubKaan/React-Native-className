@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import { View } from 'react-native';
-import { getClasses } from './layout';
+import React, { Component, ReactNode } from 'react';
+import { View, ViewStyle } from 'react-native';
+import { getClasses } from '../styles/layout';
 
 interface ExampleProps {
-    style?: any;
+    style?: ViewStyle;
     className?: string;
-
-    children?: any;
+    children?: ReactNode;
 }
 
 /**
@@ -19,10 +18,9 @@ export default class ExampleComponent extends Component<ExampleProps> {
         const { style, children, className } = this.props;
 
         return (
-            <View style={[getClasses(className), style]}> {/* This can be a View, Text etc. */}
+            <View style={[getClasses(className), style]}>
                 {children}
             </View>
         );
     }
 }
-
