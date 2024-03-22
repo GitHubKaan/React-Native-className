@@ -6,7 +6,7 @@ This repository serves as an alternative to Nativewind or other className-based 
 
 ## How to use it?
 1. Copy "Layout.tsx" into your Expo, React Native, etc. project.
-2. Create components following the style of "ExampleComponent.tsx".
+2. Create component(s) following the style of "ExampleComponent.tsx".
 3. That's it!
 
 ## Example
