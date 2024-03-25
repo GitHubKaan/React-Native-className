@@ -11,7 +11,7 @@ interface ExampleProps {
 /**
  * @param style regular styling
  * @param className tailwind-style class props
- * @return exmaple component
+ * @return example component
  */
 export default class ExampleComponent extends Component<ExampleProps> {
     render() {
