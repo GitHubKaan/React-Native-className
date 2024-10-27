@@ -10,7 +10,7 @@ This repository serves as an alternative to Nativewind or other className-based 
 3. That's it!
 
 ## Example
-```typescript
+```javascript
 <ExampleComponent className="p-3 m-1 gap">
   <Text>Hello World!</Text>
   <Text>My Name is Kaan.</Text>
